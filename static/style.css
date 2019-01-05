@@ -1,12 +1,17 @@
 @font-face {
-    font-family: buttons;
-    src: url(NanumMyeongjo-Regular.ttf);
+  font-family: buttons;
+  src: "Sarasa Gothic J";
 }
 
 body
 {
  	background: linear-gradient(270deg, #4bd3ff, #ff8585, #8598ff);
 	background-size: 600% 600%;
+@font-face {
+  font-family: Iosevka Term Custom;
+  src: url(iosevka-term-custom-medium.woff2);
+}
+
 
 	-webkit-animation: AnimationName 30s ease infinite;
 	-moz-animation: AnimationName 30s ease infinite;
@@ -114,6 +119,12 @@ body
 	font-family:"Segoe UI Bold";
 	color:#5b5b5b;
 	display:none;
+#clock-box {
+  font-family: "Iosevka Custom Term";
+  font-size: 70px;
+  text-align: center;
+  color: white;
+}
 
 }
 
@@ -418,4 +429,11 @@ body
   }
 }
 
-*/
+#login-restart {
+  width: 42px;
+  font-family: "Iosevka Term Custom";
+  font-weight: 500;
+  color: white;
+  background-color: transparent;
+  border: none;
+}
